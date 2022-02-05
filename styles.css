@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #305170 0%, #4db44b 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  border: 2px solid #fff;
+  padding: 30px 40px;
+  width: 40%;
+  min-width: 500px;
+}
+
+.container .title-container {
+  text-align: center;
+  background-color: white;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.container .title-container p {
+  color: #3fb37f;
+  font-size: 1.8rem;
+  padding: 5px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.new-task-container {
+  background-color: #fff;
+  padding: 30px 20px;
+  border-radius: 5px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  display: flex;
+}
+
+.new-task-container input {
+  flex: 3;
+  font-size: 1rem;
+  border: 2px solid #d1d3d4;
+  border-radius: 5px;
+  padding: 12px;
+  font-weight: 500;
+  outline: none;
+}
+
+.new-task-container input:focus {
+  border-color: #41b883;
+}
+
+.new-task-button {
+  flex: 1;
+  border-radius: 5px;
+  font-weight: 500;
+  height: 100%;
+  font-size: 1rem;
+  border: none;
+  background-color: #41b883;
+  color: #fff;
+  padding: 12px;
+  margin-left: 12px;
+  align-self: center;
+  cursor: pointer;
+}
+
+.new-task-button:hover {
+  background-color: #318a62;
+  transition: all 0.3s ease;
+}
+
+.tasks-container {
+  background-color: #fff;
+  padding: 15px 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+.task-item i {
+  background-color: #41b883;
+  color: #fff;
+  padding: 11px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task-item i:hover {
+  background-color: #318a62;
+  transition: all 0.3s ease;
+}
+
+.task-item p {
+  cursor: pointer;
+}
+
+/* Utilities */
+
+.error {
+  border: 2px solid red !important;
+}
+
+.error::placeholder {
+  color: red;
+}
+
+.completed {
+  text-decoration: line-through;
+}
