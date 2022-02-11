@@ -1,5 +1,5 @@
 # ListadeTarefas_JavaScript
-Lista de Tarefas feita com HTML, CSS e JavaScript. Utilizei o método de LocalStorage para que ad tarefas continuem mesmo que o usuário saia da pagina.
+Lista de Tarefas feita com HTML, CSS e JavaScript. Utilizei o método de LocalStorage para que as tarefas continuem mesmo que o usuário saia da pagina.
 <br><br>
 
 <h1>Preview</h1>
