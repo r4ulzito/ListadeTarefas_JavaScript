@@ -1,33 +1,37 @@
 <h1 align="center">📝 LISTA DE TAREFAS</h1>
 
 <div align="center">
-  <img src="https://www.acheicampos.com.br/uploads/advertiser/default_anunciante_thumbnail.png" alt="Descrição da imagem">
+  <img src="https://user-images.githubusercontent.com/97764322/182464824-a95b99f5-7165-4c2b-a973-0a206c5d728b.gif" alt="Descrição da imagem">
 </div>
 
 > 🔎 Lista de tarefas onde é possivel atribuir e remover tarefas além de marcar as tarefas já feitas
 
-🗔 Confira a aplicação: <br>
+🗔 Confira a aplicação: https://lista-de-tarefas-js.netlify.app <br>
 
 ## 📄 Explicação
 
-Explicação de como funciona o projeto, os components utilizados, ideia do projeto, etc...
+Neste projeto desenvolvi uma lista de tarefas, o usuário pode atribuir tarefas e remove-las, além de marcar quais tarefas ja foram executadas, os itens da lista são salvos em localStorage podendo assim fechar e abrir a pagina da aplicação sem perder seus dados
 
 ## 🚀 Tecnologias
 
-- [Example 1](https://www.linkedin.com/in/raul-de-souza/)
-- [Example 2](https://www.linkedin.com/in/raul-de-souza/)
-- [Example 3](https://www.linkedin.com/in/raul-de-souza/)
-- [Example 4](https://www.linkedin.com/in/raul-de-souza/)
+- [HTML5](https://pt.wikipedia.org/wiki/HTML5)
+- [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 ## 📚 Bibliotecas Usadas
 
-- [Example 1](https://www.linkedin.com/in/raul-de-souza/)
-- [Example 2](https://www.linkedin.com/in/raul-de-souza/)
+- [Google Fonts](https://fonts.google.com/)
+- [Font Awesome](https://fontawesome.com/) (para icones)
 
 ## 📔 Conhecimentos Utilizados
 
+✅ Estruturação de diretórios\
 ✅ Uso semântico do HTML\
-✅ Integração com a API do TMDB ao usar o `fetch`
+✅ Armazenamento e remoção de dados em `localStorage`\
+✅ Validação de inputs\
+✅ Uso de váriaveis globais no script\
+✅ Manipulação de classes CSS com JavaScript\
+✅ Responsividade
 
 ## 🤝 Colaboradores
 
